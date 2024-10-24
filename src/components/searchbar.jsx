@@ -17,7 +17,7 @@ const SearchBar = () => {
         <div className="flex items-center px-4 border-r border-gray-200">
           <input
             type="text"
-            placeholder="Where" 
+            placeholder="Movie Name" 
             className="outline-none text-sm text-gray-600"
             value={Which}
             onChange={(e) => setWhich(e.target.value)}
